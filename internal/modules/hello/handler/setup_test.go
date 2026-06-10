@@ -1,8 +1,8 @@
 package hello_handler_test
 
 import (
-	hello_controller "simple-golang-rest-server/internal/modules/hello/handler"
-	pkg_http "simple-golang-rest-server/internal/pkg/http"
+	hello_controller "github.com/aziemp66/over-engineered-passion-project/internal/modules/hello/handler"
+	pkg_http "github.com/aziemp66/over-engineered-passion-project/internal/pkg/http"
 
 	"github.com/gin-gonic/gin"
 )

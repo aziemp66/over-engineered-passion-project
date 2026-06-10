@@ -1,6 +1,6 @@
-module simple-golang-rest-server
+module github.com/aziemp66/over-engineered-passion-project
 
-go 1.22.2
+go 1.26.4
 
 require (
 	github.com/gin-contrib/cors v1.7.1

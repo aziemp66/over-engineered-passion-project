@@ -3,7 +3,8 @@ package hello_handler
 import (
 	"fmt"
 	"net/http"
-	pkg_http_wrapper "simple-golang-rest-server/internal/pkg/http/wrapper"
+
+	pkg_http_wrapper "github.com/aziemp66/over-engineered-passion-project/internal/pkg/http/wrapper"
 
 	"github.com/gin-gonic/gin"
 )

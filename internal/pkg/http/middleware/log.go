@@ -1,8 +1,9 @@
 package pkg_http_middleware
 
 import (
-	pkg_logger "simple-golang-rest-server/internal/pkg/logger"
 	"time"
+
+	pkg_logger "github.com/aziemp66/over-engineered-passion-project/internal/pkg/logger"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

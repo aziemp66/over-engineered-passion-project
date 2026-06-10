@@ -1,7 +1,7 @@
 package router
 
 import (
-	hello_handler "simple-golang-rest-server/internal/modules/hello/handler"
+	hello_handler "github.com/aziemp66/over-engineered-passion-project/internal/modules/hello/handler"
 
 	"github.com/gin-gonic/gin"
 )

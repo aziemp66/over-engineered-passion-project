@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"net/http"
 	"net/http/httptest"
-	pkg_http_wrapper "simple-golang-rest-server/internal/pkg/http/wrapper"
 	"testing"
+
+	pkg_http_wrapper "github.com/aziemp66/over-engineered-passion-project/internal/pkg/http/wrapper"
 
 	"github.com/stretchr/testify/assert"
 )

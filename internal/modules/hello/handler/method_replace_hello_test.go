@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"net/http"
 	"net/http/httptest"
-	hello_request "simple-golang-rest-server/internal/modules/hello/models/request"
-	pkg_http_wrapper "simple-golang-rest-server/internal/pkg/http/wrapper"
 	"testing"
+
+	hello_request "github.com/aziemp66/over-engineered-passion-project/internal/modules/hello/models/request"
+	pkg_http_wrapper "github.com/aziemp66/over-engineered-passion-project/internal/pkg/http/wrapper"
 
 	"github.com/stretchr/testify/assert"
 )
