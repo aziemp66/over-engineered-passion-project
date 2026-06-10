@@ -35,5 +35,5 @@ func main() {
 	signal.Notify(done, syscall.SIGINT, syscall.SIGTERM)
 	<-done
 
-	pkg_logger.Info(fmt.Sprintf("Server gracefully shutdown %s", time.Now().Format(time.RFC3339)))
+	pkg_logger.Info(fmt.Sprintf("Server gracefully shutdown on %s", time.Now().Format(time.RFC3339)))
 }

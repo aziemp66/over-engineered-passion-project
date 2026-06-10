@@ -19,7 +19,7 @@ func InitLogger(mode string, path string) {
 	config.EncoderConfig.EncodeLevel = zapcore.CapitalColorLevelEncoder
 	config.EncoderConfig.EncodeTime = zapcore.TimeEncoderOfLayout(time.RFC3339)
 
-	config.OutputPaths = []string{path}
+	config.OutputPaths = []string{path, "stdout"}
 
 	log, err := config.Build()
 	if err != nil {
