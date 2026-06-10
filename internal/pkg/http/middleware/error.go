@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	errorPkg "simple-golang-rest-server/pkg/error"
-	pkg_http_wrapper "simple-golang-rest-server/pkg/http/wrapper"
-	pkg_logger "simple-golang-rest-server/pkg/logger"
+	errorPkg "simple-golang-rest-server/internal/pkg/error"
+	pkg_http_wrapper "simple-golang-rest-server/internal/pkg/http/wrapper"
+	pkg_logger "simple-golang-rest-server/internal/pkg/logger"
 )
 
 func ErrorHandler() gin.HandlerFunc {
